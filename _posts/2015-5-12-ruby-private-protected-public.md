@@ -17,10 +17,6 @@ This stackoverflow [answer][1] gives a clear explanation on how private is diffe
 The protected attribute is hidden from the outside world but if an instance of the class wants to compare itself with another instance of the class, it can access the protected attribute.
 In the case of a private attribute, other instances of the same class will not have any access. Private methods are only accessible within that **instances** of the class.
 
-
-In the context of Java, private is similar to the `protected` keyword as you can access the private method from within subclasses. 
-This is because you do not need to have an explicit receiver to call the superclass method.
-
 ## The programmer is in charge
 
 In the Eloquent Ruby book it states `The Ruby philosophy is that the programmer is in charge.`
