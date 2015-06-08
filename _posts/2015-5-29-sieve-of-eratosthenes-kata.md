@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sieve of Eratosthenes Kata in Ruby
+youtubeId: -U9gQUGonBM
 ---
 
 Practicing a kata was one of the tasks that Micah gave us as part of his visit.
@@ -10,4 +11,5 @@ I chose to do the Sieve of Eratosthenes in Ruby and found my performance was aro
 After a bit more practice I was able to smooth out the kata and get it to just under 6 minutes.
 
 Here it is on youtube:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-U9gQUGonBM" frameborder="0" allowfullscreen></iframe>
+
+{% include youtubePlayer.html id=page.youtubeId %}
